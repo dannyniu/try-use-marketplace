@@ -2,5 +2,6 @@ on: push
 
 jobs:
   print-pwd:
+    runs-on: ubuntu-latest
     steps:
       - run: pwd
