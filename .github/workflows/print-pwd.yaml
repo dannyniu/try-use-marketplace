@@ -1,0 +1,4 @@
+jobs:
+  print-pwd:
+    steps:
+      - run: pwd
